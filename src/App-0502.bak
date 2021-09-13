@@ -1,0 +1,29 @@
+import React from 'react'
+import './App.css'
+import {BoxList} from './BoxList'
+import {ProductList} from "./ProductList";
+import ProductListClass from "./ClassComponents/ProductListClass";
+
+const App = () => {
+    return (
+        <div>
+            <h2 style={{backgroundColor: "green", textAlign: "center"}}>Hello World</h2>
+            <h3 className="test">Good Night</h3>
+            <BoxList/>
+            <ProductList/>
+            <ProductListClass/>
+        </div>
+    )
+}
+
+export const Contact = () => {
+    return (
+        <div>
+            <h2>Contact</h2>
+            <h3>Good Morning</h3>
+            <BoxList/>
+        </div>
+    )
+}
+
+export default App;
